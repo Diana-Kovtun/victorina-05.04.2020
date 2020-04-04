@@ -15,8 +15,9 @@ namespace proekt_05._04._2020
         public Form1()
         {
             InitializeComponent();
+            
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {  
             string kolvo = textBox1.Text;
@@ -29,11 +30,11 @@ namespace proekt_05._04._2020
             }
             if(kolvo == "")
             {
-                MessageBox.Show("Вы не ввели количество играков");
+                MessageBox.Show("Вы не ввели количество игроков");
             }
             else
             {
-                MessageBox.Show("Количество играков должно быть от 2 до 5, попробуйте ещё раз");
+                MessageBox.Show("Количество игроков должно быть от 2 до 5, попробуйте ещё раз");
             }
            
             
@@ -48,5 +49,7 @@ namespace proekt_05._04._2020
         {
 
         }
+
+      
     }
 }

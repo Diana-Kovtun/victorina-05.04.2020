@@ -122,5 +122,23 @@
   <ItemGroup>
     <None Include="Resources\Passenger_Airplanes_501163.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best-air-plane-sunset-HD-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6307ead3fa945bc8e234d2f2e9de628b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-ideas-light-bulb-question-mark-pattern-petits-pixels.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1200 %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

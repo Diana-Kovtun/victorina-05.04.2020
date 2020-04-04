@@ -60,6 +60,7 @@
             this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -248,6 +249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::proekt_05._04._2020.Properties.Resources.s1200__1_;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.pictureBox1);

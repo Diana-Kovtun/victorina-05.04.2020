@@ -15,6 +15,11 @@ namespace proekt_05._04._2020
         public Form2(String temp)
         {
             InitializeComponent();
+            label1.BackColor = Color.FromArgb(0, 0, 0, 0);
+            label2.BackColor = Color.FromArgb(0, 0, 0, 0);
+            label3.BackColor = Color.FromArgb(0, 0, 0, 0);
+            label4.BackColor = Color.FromArgb(0, 0, 0, 0);
+            label5.BackColor = Color.FromArgb(0, 0, 0, 0);
             switch (temp)
             {
                 case "2":
@@ -33,6 +38,7 @@ namespace proekt_05._04._2020
                         label4.Hide();
                         textBox5.Hide();
                         label5.Hide();
+                      
                         break;
 
                     }
@@ -40,10 +46,12 @@ namespace proekt_05._04._2020
                     {
                         textBox5.Hide();
                         label5.Hide();
+                       
                         break;
                     }
                 case "5":
                     {
+                      
                         break;
                     }
          
@@ -69,10 +77,17 @@ namespace proekt_05._04._2020
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 d = new Form3(textBox1.Text);
-            this.Hide();
-            d.ShowDialog();
-            this.Close();
+            if (textBox1.Text == "" || textBox2.Text == "")
+            {
+                MessageBox.Show("Вы не ввели имя, попробуйте ещё раз");
+            }
+            else
+            {
+                Form3 d = new Form3(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text);
+                this.Hide();
+                d.ShowDialog();
+                this.Close();
+            }
         }
     }
 }
